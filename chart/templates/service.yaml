@@ -29,3 +29,4 @@ spec:
           image: ghcr.io/muvaf/cl3:{{ .Values.image.tag }}
           ports:
             - name: http
+              containerPort: 8080
